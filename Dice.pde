@@ -7,7 +7,7 @@ void setup() {
 void draw() {
   for (int i=0; i<8; i++) {
     for (int m=0; m<8; m++) {
-      num1 = new Die(i*60+10, m*60+10);
+      num1 = new Die(i*60+15, m*60+15);
       num1.roll();
       num1.show();
     }
